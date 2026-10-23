@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark">
+<title>Helovea Yasal</title>
+<meta name="description" content="Helovea gizlilik politikası ve kullanım koşulları">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#F5F0E6; --surface:#FFFFFF; --ink:#1A1A1A; --ink-2:#5E5B52; --ink-3:#8A867B;
+  --deep:#0F3A2D; --deep-ink:#F5F0E6; --mint:#2BAE7E; --mint-ink:#0B3B2A; --gold:#C5A572;
+  --rule:#E4DDCF; --focus:#2BAE7E;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#111915; --surface:#18221D; --ink:#EDE8DC; --ink-2:#B9B3A5; --ink-3:#857F72;
+    --deep:#0B2A21; --deep-ink:#EDE8DC; --mint:#3FC493; --mint-ink:#0B3B2A; --gold:#D4B887;
+    --rule:#26332C; --focus:#3FC493;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#111915; --surface:#18221D; --ink:#EDE8DC; --ink-2:#B9B3A5; --ink-3:#857F72;
+  --deep:#0B2A21; --deep-ink:#EDE8DC; --mint:#3FC493; --mint-ink:#0B3B2A; --gold:#D4B887;
+  --rule:#26332C; --focus:#3FC493;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.65;font-feature-settings:"cv11","ss01"}
+a{color:var(--mint);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--ink)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:4px}
+.band{background:var(--deep);color:var(--deep-ink)}
+.band-in{max-width:1040px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--deep-ink);text-decoration:none}
+.brand .leaf{width:28px;height:28px;border-radius:9px;background:var(--mint);display:grid;place-items:center}
+.brand .leaf svg{width:16px;height:16px}
+.brand b{font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:600;font-size:20px;letter-spacing:-.01em}
+nav{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+nav a,.lang button{font:inherit;font-size:13px;font-weight:500;letter-spacing:.01em;padding:8px 12px;border-radius:999px;color:var(--deep-ink);text-decoration:none;border:1px solid transparent;background:transparent;cursor:pointer;opacity:.82}
+nav a:hover,.lang button:hover{opacity:1}
+nav a[aria-current="page"]{background:rgba(255,255,255,.12);opacity:1}
+.lang{display:flex;gap:2px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:2px}
+.lang button[aria-pressed="true"]{background:var(--mint);color:var(--mint-ink);opacity:1}
+main{max-width:1040px;margin:0 auto;padding:40px 24px 72px;display:grid;grid-template-columns:minmax(0,66ch) 1fr;gap:48px;align-items:start}
+@media (max-width:860px){main{grid-template-columns:minmax(0,1fr);gap:28px}}
+.doc h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,4.6vw,46px);line-height:1.1;letter-spacing:-.015em;margin:0 0 10px;text-wrap:balance;color:var(--ink)}
+.eyebrow{display:flex;gap:10px;align-items:center;font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 28px}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--gold)}
+.doc p{margin:0 0 14px;color:var(--ink);max-width:66ch}
+.doc > p:first-of-type{font-size:19px;line-height:1.55;color:var(--ink-2);margin-bottom:26px}
+.doc h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:24px;line-height:1.25;letter-spacing:-.01em;margin:38px 0 10px;text-wrap:balance;color:var(--ink);scroll-margin-top:24px}
+.doc ul{margin:0 0 14px;padding:0 0 0 1.15em;max-width:66ch}
+.doc li{margin:0 0 8px;padding-left:.2em}
+.doc li::marker{color:var(--mint)}
+aside{position:sticky;top:24px}
+.toc{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:18px 18px 14px}
+.toc h3{margin:0 0 10px;font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.toc ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:2px}
+.toc a{display:block;padding:6px 8px;border-radius:8px;font-size:14px;color:var(--ink-2);text-decoration:none;line-height:1.35}
+.toc a:hover{background:var(--ground);color:var(--ink)}
+.note{margin-top:14px;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--rule);font-size:13.5px;color:var(--ink-2);line-height:1.5}
+.note b{color:var(--ink);font-weight:600}
+footer{border-top:1px solid var(--rule);color:var(--ink-3);font-size:13.5px}
+footer .band-in{justify-content:space-between}
+footer a{color:var(--ink-2)}
+[data-lang-block]{display:contents}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+/* Giriş sayfası kartları */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:28px}
+.card{display:block;background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:22px 22px 20px;text-decoration:none;color:var(--ink);transition:transform .15s ease,border-color .15s ease}
+.card:hover{border-color:var(--mint);transform:translateY(-2px)}
+.card h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
+.card p{margin:0;color:var(--ink-2);font-size:15px;line-height:1.5}
+.card .go{display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--mint)}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+ main{grid-template-columns:minmax(0,1fr)}</style>
+</head>
+<body>
+<header class="band"><div class="band-in">
+  <a class="brand" href="./"><span class="leaf"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 4c-7 0-12 4-12 11 0 1 .1 2 .3 3C9 14 12 11 16 9c-3 3-5 6-6 10 6 0 10-5 10-12 0-1 0-2-1-3z" fill="#0F3A2D"/></svg></span><b>Helovea</b></a>
+  <nav aria-label="Belgeler / Documents">
+    <a href="./privacy/"  data-tr="Gizlilik Politikası" data-en="Privacy Policy">Gizlilik Politikası</a>
+    <a href="./terms/"  data-tr="Kullanım Koşulları" data-en="Terms of Use">Kullanım Koşulları</a>
+    <span class="lang" role="group" aria-label="Dil / Language">
+      <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </span>
+  </nav>
+</div></header>
+<main><div data-lang-block="tr" hidden>
+<article class="doc" style="grid-column:1/-1">
+  <h1>Yasal metinler</h1>
+  <p>Helovea'nın gizlilik politikası ve kullanım koşulları — uygulamanın içindeki metinlerle birebir aynı, sade dilde.</p>
+  <div class="cards">
+    <a class="card" href="./privacy/"><h2>Gizlilik Politikası</h2><p>Hangi bilgileri topladığımız, neden topladığımız ve hakların.</p><span class="go">Oku →</span></a>
+    <a class="card" href="./terms/"><h2>Kullanım Koşulları</h2><p>Helovea'nın ne olduğu, ne olmadığı ve kullanım kuralları.</p><span class="go">Oku →</span></a>
+  </div>
+</article></div><div data-lang-block="en" hidden>
+<article class="doc" style="grid-column:1/-1">
+  <h1>Legal</h1>
+  <p>Helovea's privacy policy and terms of use — identical to the texts inside the app, in plain language.</p>
+  <div class="cards">
+    <a class="card" href="./privacy/"><h2>Privacy Policy</h2><p>What we collect, why, and your rights.</p><span class="go">Read →</span></a>
+    <a class="card" href="./terms/"><h2>Terms of Use</h2><p>What Helovea is, what it isn't, and the rules of use.</p><span class="go">Read →</span></a>
+  </div>
+</article></div></main>
+<footer><div class="band-in"><span>© 2026 Helovea</span><span><a href="./privacy/" data-tr="Gizlilik" data-en="Privacy">Gizlilik</a> · <a href="./terms/" data-tr="Koşullar" data-en="Terms">Koşullar</a> · <a href="mailto:support@helovea.app">support@helovea.app</a></span></div></footer>
+<script>
+(function(){
+  var KEY='helovea_legal_lang';
+  function pick(){
+    var q=new URLSearchParams(location.search).get('lang');
+    if(q==='tr'||q==='en') return q;
+    try{var s=localStorage.getItem(KEY); if(s==='tr'||s==='en') return s;}catch(e){}
+    return (navigator.language||'').toLowerCase().indexOf('tr')===0?'tr':'en';
+  }
+  function apply(lang){
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-lang-block]').forEach(function(el){ el.hidden = el.getAttribute('data-lang-block')!==lang; });
+    document.querySelectorAll('button[data-lang]').forEach(function(b){ b.setAttribute('aria-pressed', String(b.getAttribute('data-lang')===lang)); });
+    document.querySelectorAll('[data-tr][data-en]').forEach(function(el){ el.textContent = el.getAttribute('data-'+lang); });
+    var t=document.querySelector('[data-lang-block="'+lang+'"] h1'); if(t) document.title=t.textContent+' — Helovea';
+    try{localStorage.setItem(KEY,lang);}catch(e){}
+  }
+  document.querySelectorAll('button[data-lang]').forEach(function(b){ b.addEventListener('click',function(){ apply(b.getAttribute('data-lang')); }); });
+  apply(pick());
+})();</script>
+</body>
+</html>

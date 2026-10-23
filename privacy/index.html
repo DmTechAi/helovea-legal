@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Gizlilik Politikası — Helovea</title>
+<meta name="description" content="Helovea — Gizlilik Politikası / Privacy Policy">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#F5F0E6; --surface:#FFFFFF; --ink:#1A1A1A; --ink-2:#5E5B52; --ink-3:#8A867B;
+  --deep:#0F3A2D; --deep-ink:#F5F0E6; --mint:#2BAE7E; --mint-ink:#0B3B2A; --gold:#C5A572;
+  --rule:#E4DDCF; --focus:#2BAE7E;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#111915; --surface:#18221D; --ink:#EDE8DC; --ink-2:#B9B3A5; --ink-3:#857F72;
+    --deep:#0B2A21; --deep-ink:#EDE8DC; --mint:#3FC493; --mint-ink:#0B3B2A; --gold:#D4B887;
+    --rule:#26332C; --focus:#3FC493;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#111915; --surface:#18221D; --ink:#EDE8DC; --ink-2:#B9B3A5; --ink-3:#857F72;
+  --deep:#0B2A21; --deep-ink:#EDE8DC; --mint:#3FC493; --mint-ink:#0B3B2A; --gold:#D4B887;
+  --rule:#26332C; --focus:#3FC493;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.65;font-feature-settings:"cv11","ss01"}
+a{color:var(--mint);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--ink)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:4px}
+.band{background:var(--deep);color:var(--deep-ink)}
+.band-in{max-width:1040px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--deep-ink);text-decoration:none}
+.brand .leaf{width:28px;height:28px;border-radius:9px;background:var(--mint);display:grid;place-items:center}
+.brand .leaf svg{width:16px;height:16px}
+.brand b{font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:600;font-size:20px;letter-spacing:-.01em}
+nav{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+nav a,.lang button{font:inherit;font-size:13px;font-weight:500;letter-spacing:.01em;padding:8px 12px;border-radius:999px;color:var(--deep-ink);text-decoration:none;border:1px solid transparent;background:transparent;cursor:pointer;opacity:.82}
+nav a:hover,.lang button:hover{opacity:1}
+nav a[aria-current="page"]{background:rgba(255,255,255,.12);opacity:1}
+.lang{display:flex;gap:2px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:2px}
+.lang button[aria-pressed="true"]{background:var(--mint);color:var(--mint-ink);opacity:1}
+main{max-width:1040px;margin:0 auto;padding:40px 24px 72px;display:grid;grid-template-columns:minmax(0,66ch) 1fr;gap:48px;align-items:start}
+@media (max-width:860px){main{grid-template-columns:minmax(0,1fr);gap:28px}}
+.doc h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,4.6vw,46px);line-height:1.1;letter-spacing:-.015em;margin:0 0 10px;text-wrap:balance;color:var(--ink)}
+.eyebrow{display:flex;gap:10px;align-items:center;font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 28px}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--gold)}
+.doc p{margin:0 0 14px;color:var(--ink);max-width:66ch}
+.doc > p:first-of-type{font-size:19px;line-height:1.55;color:var(--ink-2);margin-bottom:26px}
+.doc h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:24px;line-height:1.25;letter-spacing:-.01em;margin:38px 0 10px;text-wrap:balance;color:var(--ink);scroll-margin-top:24px}
+.doc ul{margin:0 0 14px;padding:0 0 0 1.15em;max-width:66ch}
+.doc li{margin:0 0 8px;padding-left:.2em}
+.doc li::marker{color:var(--mint)}
+aside{position:sticky;top:24px}
+.toc{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:18px 18px 14px}
+.toc h3{margin:0 0 10px;font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.toc ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:2px}
+.toc a{display:block;padding:6px 8px;border-radius:8px;font-size:14px;color:var(--ink-2);text-decoration:none;line-height:1.35}
+.toc a:hover{background:var(--ground);color:var(--ink)}
+.note{margin-top:14px;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--rule);font-size:13.5px;color:var(--ink-2);line-height:1.5}
+.note b{color:var(--ink);font-weight:600}
+footer{border-top:1px solid var(--rule);color:var(--ink-3);font-size:13.5px}
+footer .band-in{justify-content:space-between}
+footer a{color:var(--ink-2)}
+[data-lang-block]{display:contents}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+/* Giriş sayfası kartları */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:28px}
+.card{display:block;background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:22px 22px 20px;text-decoration:none;color:var(--ink);transition:transform .15s ease,border-color .15s ease}
+.card:hover{border-color:var(--mint);transform:translateY(-2px)}
+.card h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
+.card p{margin:0;color:var(--ink-2);font-size:15px;line-height:1.5}
+.card .go{display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--mint)}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<header class="band"><div class="band-in">
+  <a class="brand" href="../"><span class="leaf"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 4c-7 0-12 4-12 11 0 1 .1 2 .3 3C9 14 12 11 16 9c-3 3-5 6-6 10 6 0 10-5 10-12 0-1 0-2-1-3z" fill="#0F3A2D"/></svg></span><b>Helovea</b></a>
+  <nav aria-label="Belgeler / Documents">
+    <a href="../privacy/" aria-current="page" data-tr="Gizlilik Politikası" data-en="Privacy Policy">Gizlilik Politikası</a>
+    <a href="../terms/"  data-tr="Kullanım Koşulları" data-en="Terms of Use">Kullanım Koşulları</a>
+    <span class="lang" role="group" aria-label="Dil / Language">
+      <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </span>
+  </nav>
+</div></header>
+<main>
+<div data-lang-block="tr" hidden>
+<article class="doc">
+  <h1>Gizlilik Politikası</h1>
+  <p class="eyebrow">Son güncelleme: 22 Ekim 2026</p>
+  <p>Helovea'yı kullandığında bize bazı bilgilerini emanet ediyorsun. Bu metin, Kişisel Verilerin Korunması Kanunu (KVKK) ve Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) kapsamındaki aydınlatma metnimizdir: hangi bilgileri topladığımızı, neden ve hangi hukuki sebeple işlediğimizi, kimlere gönderdiğimizi ve haklarını olabildiğince sade bir dille anlatır.</p>
+<h2 id="kisaca-ozet">Kısaca özet</h2>
+<ul><li>Verilerini satmayız, kimseyle pazarlama amacıyla paylaşmayız.</li><li>Uygulamada reklam ve üçüncü taraf izleme (tracker/analitik) yoktur.</li><li>Sağlıkla ilgili bilgilerin (sindirim/IBS cevabı, alerjiler ve semptom kayıtları) yalnız senin ayrıca vereceğin açık rızayla işlenir. Helovea'nın temel özellikleri bu bilgiler olmadan çalışmadığı için rıza vermeden uygulama kullanılamaz; rızanı istediğin an hesabını silerek geri alabilirsin.</li><li>Yapay zekâ özellikleri yalnız sen ayrıca onay verirsen çalışır.</li><li>Hesabını uygulama içinden kendin, kalıcı olarak silebilirsin (kimseye yazmana gerek yok).</li></ul>
+<h2 id="veri-sorumlusu">Veri sorumlusu</h2>
+<p>Verilerinden sorumlu kişi (veri sorumlusu): Yusuf Can Erdoğan.</p>
+<p>Her türlü soru ve başvuru için: <a href="mailto:destek@helovea.app">destek@helovea.app</a>. Başvurunu uygulamaya kayıtlı e-posta adresinden gönderirsen kimliğini ayrıca doğrulamamız gerekmez.</p>
+<h2 id="hangi-bilgileri-topluyoruz-neden-ve-hangi-hukuki-sebeple">Hangi bilgileri topluyoruz, neden ve hangi hukuki sebeple?</h2>
+<p>Bilgilerin, uygulamayı kullanırken senin girdiklerinden ve uygulamanın çalışması için otomatik olarak oluşan kayıtlardan (örneğin kayıt tarihi) elde edilir. Hiçbirini başka kaynaklardan satın almaz ya da toplamayız.</p>
+<ul><li>Hesap bilgileri: e-posta adresin ve adın. Apple ya da Google ile giriş yaparsan bu sağlayıcıdan yalnız temel kimlik bilgisi alırız. Amaç: hesabını açmak, oturumunu yönetmek, hesap e-postalarını (onay, şifre sıfırlama) göndermek. Hukuki sebep: seninle yaptığımız kullanım sözleşmesinin kurulması ve yerine getirilmesi (KVKK md. 5/2-c; GDPR md. 6/1-b).</li><li>Profil bilgileri: yaş, cinsiyet, boy, kilo, hedef kilo, aktivite düzeyi, diyet tercihi, yeme tarzı, öğün düzeni ve hedef tempon. Amaç: kalori hedefini hesaplamak, sana uygun plan ve öneriler üretmek. Hukuki sebep: kullanım sözleşmesinin yerine getirilmesi.</li><li>Günlük kayıtların: öğün, su ve tartım kayıtların; kaydettiğin ya da atladığın tarifler, kendi tariflerin, plan tercihlerin ve VeaCoin bakiyen. Amaç: günlüğünü tutmak, günlük skorunu hesaplamak, planını ve önerilerini kişiselleştirmek, ödülleri hesaplamak. Hukuki sebep: kullanım sözleşmesinin yerine getirilmesi.</li><li>Sağlıkla ilgili bilgilerin (özel nitelikli kişisel veri): tanışmada verdiğin sindirim/IBS cevabı, alerjilerin ve sindirim takibini açarsan öğünlerine girdiğin semptom kayıtların. Amaç: alerjen içeren tarifleri planından çıkarmak, sindirim dostu (düşük FODMAP) filtreyi uygulamak ve kayıtlarından kişisel tetikleyici örüntülerini göstermek. Hukuki sebep: yalnız senin ayrıca vereceğin açık rıza (KVKK md. 6/3-a; GDPR md. 9/2-a). Helovea her planı ve tarifi alerjen güvenliği ve sindirim uyumu açısından süzer; bu süzgeci kurabilmek için alerjin olup olmadığını ve sindirim durumunu sormak zorundayız. Bu yüzden girişten sonra ayrı bir ekranda rızanı isteriz ve rıza vermeden uygulama kullanılamaz. Zorunlu olan soru, cevap değil: "kısıtlamam yok" ya da "sindirim sorunum yok" da geçerli cevaplardır ve ek bir veri girmeni gerektirmez.</li><li>Bildirim izni: hatırlatıcı istersen telefonunun bildirim iznini kullanırız. Hukuki sebep: senin izin vermen; telefon ayarlarından her an kapatabilirsin.</li><li>Toplamadıklarımız: konum bilgisi, rehber, reklam kimliği, cihaz parmak izi. Uygulamada analitik, çerez ya da izleme aracı yoktur.</li></ul>
+<h2 id="verilerin-nerede-saklaniyor">Verilerin nerede saklanıyor?</h2>
+<p>Verilerin, altyapı sağlayıcımız Supabase'in Avustralya'daki (Sydney) sunucularında saklanır ve şifreli bağlantıyla (HTTPS) taşınır. Oturum anahtarın cihazında işletim sisteminin güvenli deposunda (iOS Keychain / Android Keystore) tutulur. Sağlık verileri veri tabanında yalnız senin hesabının erişebildiği satırlarda tutulur (satır düzeyinde erişim kuralı).</p>
+<h2 id="kimlerle-paylasiliyor-ve-yurt-disina-aktariliyor-mu">Kimlerle paylaşılıyor ve yurt dışına aktarılıyor mu?</h2>
+<p>Verilerini satmayız ve pazarlama amacıyla kimseyle paylaşmayız. Yalnız aşağıdaki hizmet sağlayıcılar, bizim adımıza ve bizim talimatımızla verilerini işler. Hepsi Türkiye ve Avrupa Birliği dışındadır. Her biriyle, verilerini korumalarını ve yalnız bizim talimatımızla işlemelerini zorunlu kılan veri işleme sözleşmeleri yaptık; Avrupa Birliği'nde yaşıyorsan bu sözleşmeler AB standart sözleşme maddelerini de içerir.</p>
+<ul><li>Supabase (sunucular Avustralya'da): tüm hesap, profil, günlük ve sağlık verilerinin saklanması ve uygulamanın çalışması.</li><li>Anthropic (ABD): yalnız AI Koç'u ya da fotoğrafla eklemeyi kullanırsan ve yalnız ayrıca onay verirsen; ayrıntısı aşağıda.</li><li>Resend (ABD): hesap e-postalarının (kayıt onayı, şifre sıfırlama) gönderilmesi; Resend'e yalnız e-posta adresin ve e-postanın kendisi (içindeki onay ya da sıfırlama bağlantısı) iletilir.</li><li>Apple ve Google: yalnız onlarla giriş yapmayı seçersen, giriş işlemi için.</li><li>Yasal bir zorunluluk olursa (mahkeme kararı gibi) yalnız gerekli olan kadarını yetkili makamlarla paylaşmak zorunda kalabiliriz (hukuki sebep: kanunlarda açıkça öngörülmesi — KVKK md. 5/2-a; GDPR md. 6/1-c).</li></ul>
+<h2 id="yapay-zeka-ozellikleri">Yapay zekâ özellikleri</h2>
+<p>AI Koç (Vea) yanıtlarını yapay zekâ ile üretir. AI Koç'u ilk kullandığında senden ayrıca onay isteriz; onay vermezsen hiçbir veri gönderilmez.</p>
+<ul><li>Gönderilenler: yazdığın mesaj ve sohbetin son mesajları; bulunduğun yerin saati ve tarihi; profil özetin (hedef, diyet, yeme tarzı, kalori hedefi, yaş, cinsiyet, boy, aktivite düzeyi, başlangıç ve hedef kilo, tempo, alerjiler, sindirim takibinin açık olup olmadığı ve açıksa tanışmadaki sindirim/IBS cevabın); bugün ve önceki 7 günde kaydettiğin öğünlerin adları, kalorileri ve protein, karbonhidrat, yağ değerleri; içtiğin su; son tartımların; sindirim takibi açıksa belirti bildirdiğin öğünler ve kayıtlarından öğrenilen kişisel FODMAP grupları.</li><li>Gönderilmeyenler: adın, e-posta adresin ve hesap bilgilerin.</li><li>Sağlayıcı: Anthropic (Claude), ABD. Gönderilenler yalnız yanıt üretmek için işlenir; Anthropic kendi beyanına göre bunları en geç 30 gün içinde sistemlerinden siler ve ticari API koşulları gereği modellerini eğitmek için kullanmaz.</li><li>Sohbetlerin bizim sunucularımızda saklanmaz; uygulamayı kapattığında sohbet ekrandan silinir.</li><li>Yapay zekâ hata yapabilir. Vea'nın yanıtları genel bilgilendirme amaçlıdır, tıbbi tavsiye değildir.</li></ul>
+<p>Fotoğrafla ekleme (yemek fotoğrafı ve paket etiketi) de yapay zekâ kullanır. İlk kullanımda ayrıca onay isteriz; onay vermezsen fotoğraf gönderilmez.</p>
+<ul><li>Gönderilenler: çektiğin ya da seçtiğin tek fotoğraf, uygulama dilin, yazdıysan fotoğrafla ilgili kısa notun ve uygulamadaki genel besin adları listesi.</li><li>Gönderilmeyenler: adın, e-posta adresin, profilin ve galerindeki diğer fotoğraflar.</li><li>Fotoğraf yalnız o tek inceleme için işlenir; bizim sunucularımızda saklanmaz, Anthropic de kendi beyanına göre en geç 30 gün içinde siler. Günlüğüne yalnız senin onayladığın besin kaydı eklenir.</li><li>Kamera ve fotoğraf erişimi yalnız sen fotoğraf çekerken ya da seçerken kullanılır. Fotoğrafta yüz ya da kişisel bilgi olmamasına dikkat etmeni öneririz.</li><li>Fotoğraftan çıkan miktarlar tahmindir ve yanılabilir; eklemeden önce kontrol etmen gerekir.</li></ul>
+<h2 id="otomatik-analizler">Otomatik analizler</h2>
+<p>Uygulama bazı sonuçları kayıtlarından otomatik hesaplar: günlük skorun, plan önerilerin ve (sindirim takibi açıksa) öğün ve semptom kayıtlarından çıkan kişisel tetikleyici örüntüleri. Bunlar yalnız sana bilgi vermek için hesaplanan tahminlerdir; teşhis değildir ve senin hakkında hukuki ya da benzeri önemli bir sonuç doğuran hiçbir otomatik karar alınmaz. Her sonucun nasıl hesaplandığını uygulama içinde görebilir, katılmadığın bir sonuca bize yazarak itiraz edebilirsin.</p>
+<h2 id="verilerin-ne-kadar-saklanir">Verilerin ne kadar saklanır?</h2>
+<ul><li>Hesabın açık olduğu sürece saklanır.</li><li>Hesabını sildiğinde tüm verilerin (profil, öğün/semptom/tartım kayıtları, tarifler, VeaCoin) kalıcı olarak ve geri alınamaz şekilde silinir. Silme işlemini Profil → Hesap → Hesabımı Sil adımından kendin yapabilirsin.</li><li>Tek istisna: verdiğin ve geri aldığın onayların kaydı (hangi metne, hangi tarihte) yasal ispat yükümlülüğümüz için, hesabın silindikten sonra kimliğinle eşleştirilemeyecek biçimde (ad ve e-posta olmadan) en çok 5 yıl saklanır (hukuki sebep: bir hakkın tesisi ve korunması — KVKK md. 5/2-e; GDPR md. 17/3-e).</li><li>Sindirim takibini kapatırsan yeni semptom kaydı tutulmaz ve eski kayıtlar kullanılmaz; istersen o anda geçmiş kayıtlarını da sildirebilirsin.</li></ul>
+<h2 id="haklarin">Hakların</h2>
+<p>KVKK md. 11 ve GDPR kapsamında şu haklara sahipsin:</p>
+<ul><li>Verilerinin işlenip işlenmediğini öğrenme ve işlenmişse bilgi isteme.</li><li>İşlenme amacını ve amaca uygun kullanılıp kullanılmadığını öğrenme.</li><li>Yurt içinde ve yurt dışında aktarıldığı üçüncü kişileri bilme.</li><li>Eksik ya da yanlış işlenmişse düzeltilmesini isteme.</li><li>Silinmesini ya da yok edilmesini isteme; işlenmesinin kısıtlanmasını isteme.</li><li>Düzeltme ve silme işlemlerinin, verilerinin aktarıldığı üçüncü kişilere de bildirilmesini isteme.</li><li>Verilerini yapılandırılmış, yaygın kullanılan bir biçimde alma (taşınabilirlik).</li><li>Yalnız otomatik sistemlerle yapılan bir analizin aleyhine bir sonuç doğurmasına itiraz etme.</li><li>Açık rızana dayanan işlemelerde rızanı her zaman geri alma (geri alma, o ana kadar yapılan işlemeyi etkilemez).</li><li>Kanuna aykırı işleme nedeniyle zarara uğrarsan zararının giderilmesini isteme.</li></ul>
+<p>Bu hakların için <a href="mailto:destek@helovea.app">destek@helovea.app</a> adresine yazman yeterli; başvurunu en geç 30 gün içinde yanıtlarız. Ayrıca Kişisel Verileri Koruma Kurulu'na (kvkk.gov.tr) ya da, Avrupa Birliği'nde yaşıyorsan, bulunduğun ülkenin veri koruma otoritesine şikâyette bulunma hakkın vardır.</p>
+<h2 id="rizani-nasil-geri-alirsin">Rızanı nasıl geri alırsın?</h2>
+<ul><li>Sağlık verileri: rızan uygulamayı kullanmanın koşulu olduğu için geri alma yolu hesabını silmektir (Profil → Hesap → Hesabımı Sil; tüm verilerin silinir). Hesabını silmeden de semptom kaydını Profil → Sindirim takibi anahtarıyla durdurabilir (geçmiş kayıtlarını silebilirsin) ve alerjilerini Profil → Alerjiler bölümünden kaldırabilirsin.</li><li>Yapay zekâ: Profil → Hesap → "Yapay zekâ onaylarını geri al" ile iki dokunuşta; o özellikleri kullanmadığın sürece zaten hiçbir veri gönderilmez.</li><li>Bildirimler: telefonunun ayarlarından ya da Profil → Bildirimler bölümünden.</li></ul>
+<h2 id="cocuklarin-gizliligi">Çocukların gizliliği</h2>
+<p>Helovea 16 yaşın altındaki çocuklara yönelik değildir ve onlardan bilerek veri toplamayız. 16 yaşından küçük birinin verisini topladığımızı fark edersek sileriz.</p>
+<h2 id="degisiklikler">Değişiklikler</h2>
+<p>Bu metni güncellersek, yeni sürümü uygulama içinde ve legal.helovea.app adresinde yayımlar, tarihini güncelleriz. Sağlık verilerinin işlenmesini etkileyen bir değişiklikte senden yeniden rıza isteriz; diğer önemli değişikliklerde ayrıca bilgilendirme yaparız.</p>
+</article>
+<aside>
+  <div class="toc"><h3>Bu sayfada</h3><ol><li><a href="#kisaca-ozet">Kısaca özet</a></li><li><a href="#veri-sorumlusu">Veri sorumlusu</a></li><li><a href="#hangi-bilgileri-topluyoruz-neden-ve-hangi-hukuki-sebeple">Hangi bilgileri topluyoruz, neden ve hangi hukuki sebeple?</a></li><li><a href="#verilerin-nerede-saklaniyor">Verilerin nerede saklanıyor?</a></li><li><a href="#kimlerle-paylasiliyor-ve-yurt-disina-aktariliyor-mu">Kimlerle paylaşılıyor ve yurt dışına aktarılıyor mu?</a></li><li><a href="#yapay-zeka-ozellikleri">Yapay zekâ özellikleri</a></li><li><a href="#otomatik-analizler">Otomatik analizler</a></li><li><a href="#verilerin-ne-kadar-saklanir">Verilerin ne kadar saklanır?</a></li><li><a href="#haklarin">Hakların</a></li><li><a href="#rizani-nasil-geri-alirsin">Rızanı nasıl geri alırsın?</a></li><li><a href="#cocuklarin-gizliligi">Çocukların gizliliği</a></li><li><a href="#degisiklikler">Değişiklikler</a></li></ol></div>
+  <div class="note">Bu metin, uygulamanın içindeki <b>Profil → Gizlilik ve Koşullar</b> bölümüyle birebir aynıdır. Sorular için: <a href="mailto:destek@helovea.app">destek@helovea.app</a></div>
+</aside>
+</div>
+<div data-lang-block="en" hidden>
+<article class="doc">
+  <h1>Privacy Policy</h1>
+  <p class="eyebrow">Last updated: October 22, 2026</p>
+  <p>When you use Helovea, you trust us with some of your information. This is our privacy notice under the EU General Data Protection Regulation (GDPR) and Türkiye's Personal Data Protection Law (KVKK): it explains what we collect, why and on which legal basis we process it, who we send it to, and what your rights are — in plain language.</p>
+<h2 id="in-short">In short</h2>
+<ul><li>We never sell your data or share it for marketing.</li><li>The app contains no ads and no third-party trackers or analytics.</li><li>Your health-related information (digestion/IBS answer, allergies and symptom logs) is processed only with your separate explicit consent. Because Helovea's core features cannot work without this information, the app cannot be used without that consent; you can withdraw it at any time by deleting your account.</li><li>AI features only run if you separately agree to them.</li><li>You can permanently delete your account yourself, inside the app — no need to contact anyone.</li></ul>
+<h2 id="data-controller">Data controller</h2>
+<p>The person responsible for your data (data controller): Yusuf Can Erdoğan.</p>
+<p>For any question or request: <a href="mailto:support@helovea.app">support@helovea.app</a>. If you write from the email address registered to your account, we will not need to verify your identity separately.</p>
+<h2 id="what-we-collect-why-and-on-which-legal-basis">What we collect, why, and on which legal basis</h2>
+<p>Your information comes from what you enter in the app and from records the app creates automatically in order to work (such as your sign-up date). We never buy or collect it from other sources.</p>
+<ul><li>Account details: your email address and name. If you sign in with Apple or Google, we only receive basic identity information from that provider. Purpose: creating your account, managing your session, sending account emails (confirmation, password reset). Legal basis: performance of our user agreement with you (GDPR Art. 6(1)(b); KVKK Art. 5/2-c).</li><li>Profile details: age, gender, height, weight, target weight, activity level, diet preference, eating style, meal pattern and goal pace. Purpose: calculating your calorie target and building plans and suggestions that fit you. Legal basis: performance of the user agreement.</li><li>Your daily logs: meal, water and weigh-in logs; recipes you save or skip, your own recipes, plan preferences and your VeaCoin balance. Purpose: keeping your diary, calculating your daily score, personalizing your plan and suggestions, calculating rewards. Legal basis: performance of the user agreement.</li><li>Health-related information (special category data): your digestion/IBS answer during onboarding, your allergies and, if you enable digestion tracking, the symptom entries you add to meals. Purpose: removing recipes containing your allergens from your plan, applying the digestion-friendly (low FODMAP) filter and showing you personal trigger patterns from your logs. Legal basis: only your separate explicit consent (GDPR Art. 9(2)(a); KVKK Art. 6/3-a). Helovea screens every plan and recipe for allergen safety and digestion fit; to build that filter we have to ask whether you have allergies and how your digestion is. That is why we ask for your consent on a separate screen after sign-in, and the app cannot be used without it. It is the question that is required, not the answer: "no restrictions" or "no digestion issues" are valid answers too and require no further data.</li><li>Notification permission: if you want reminders, we use your phone's notification permission. Legal basis: your permission, which you can revoke at any time in your phone settings.</li><li>What we do NOT collect: location, contacts, advertising identifiers, device fingerprints. There are no analytics, cookies or tracking tools in the app.</li></ul>
+<h2 id="where-your-data-is-stored">Where your data is stored</h2>
+<p>Your data is stored on the servers of our infrastructure provider, Supabase, in Australia (Sydney), and travels over encrypted connections (HTTPS). Your session key is kept in your device's secure storage (iOS Keychain / Android Keystore). Health data is kept in database rows that only your own account can access (row-level access rules).</p>
+<h2 id="who-we-share-it-with-and-international-transfers">Who we share it with, and international transfers</h2>
+<p>We never sell your data or share it for marketing. Only the service providers below process your data, on our behalf and under our instructions. All of them are located outside Türkiye and the EU. With each of them we have data processing agreements that oblige them to protect your data and to process it only on our instructions; if you live in the EU, these agreements also include the EU Standard Contractual Clauses.</p>
+<ul><li>Supabase (servers in Australia): storage of all account, profile, log and health data, and running the app.</li><li>Anthropic (USA): only if you use the AI Coach or add food by photo, and only after your separate consent; details below.</li><li>Resend (USA): sending account emails (sign-up confirmation, password reset); only your email address and the email itself (with its confirmation or reset link) are shared with it.</li><li>Apple and Google: only if you choose to sign in with them, for the sign-in itself.</li><li>If the law requires it (e.g. a court order), we may have to share only what is strictly necessary with the competent authorities (legal basis: a legal obligation — GDPR Art. 6(1)(c); KVKK Art. 5/2-a).</li></ul>
+<h2 id="ai-features">AI features</h2>
+<p>The AI Coach (Vea) generates its answers with AI. We ask for your separate consent the first time you use it; if you don't agree, nothing is sent.</p>
+<ul><li>What is sent: your message and the recent messages of the conversation; your local time and date; a profile summary (goal, diet, eating style, calorie target, age, gender, height, activity level, starting and target weight, pace, allergies, whether digestion tracking is on and, if it is, your digestion/IBS answer from onboarding); the names, calories and protein, carbohydrate and fat values of the meals you logged today and in the previous 7 days; your water intake; your recent weigh-ins; and — if digestion tracking is on — the meals after which you reported symptoms and the personal FODMAP groups learned from your logs.</li><li>What is not sent: your name, email address or account details.</li><li>Provider: Anthropic (Claude), USA. What is sent is processed only to generate the answer; according to its own statement, Anthropic deletes it from its systems within 30 days at the latest and, under its commercial API terms, does not use it to train its models.</li><li>Conversations are not stored on our servers; the chat is cleared from the screen when you close the app.</li><li>AI can make mistakes. Vea's answers are for general guidance and are not medical advice.</li></ul>
+<p>Adding food by photo (meal photos and package labels) also uses AI. We ask for separate consent the first time; if you don't agree, no photo is sent.</p>
+<ul><li>What is sent: the single photo you take or choose, your app language, the short note about the photo if you wrote one, and the app's general list of food names.</li><li>What is not sent: your name, email address, profile or any other photos in your library.</li><li>The photo is processed only for that one analysis and is not stored on our servers; Anthropic, according to its own statement, deletes it within 30 days at the latest. Only the food entry you confirm is added to your log.</li><li>Camera and photo access are used only while you take or choose a photo. We suggest making sure there are no faces or personal details in the photo.</li><li>Amounts worked out from a photo are estimates and can be wrong; please check them before adding.</li></ul>
+<h2 id="automated-analysis">Automated analysis</h2>
+<p>The app calculates some results from your logs automatically: your daily score, your plan suggestions and (if digestion tracking is on) personal trigger patterns derived from your meal and symptom logs. These are estimates shown only to inform you; they are not a diagnosis, and no automated decision with legal or similarly significant effects on you is made. You can see how each result is calculated inside the app and object to a result you disagree with by writing to us.</p>
+<h2 id="how-long-we-keep-your-data">How long we keep your data</h2>
+<ul><li>As long as your account exists.</li><li>When you delete your account, all of your data (profile, meal/symptom/weight logs, recipes, VeaCoin) is permanently and irreversibly deleted. You can do this yourself: Profile → Account → Delete My Account.</li><li>One exception: the record of the consents you gave and withdrew (which text, on which date) is kept for up to 5 years after deletion, in a form that can no longer be linked to you (without your name or email), to meet our legal obligation to prove consent (legal basis: establishment and defence of legal claims — GDPR Art. 17(3)(e); KVKK Art. 5/2-e).</li><li>If you turn digestion tracking off, no new symptom logs are kept and old ones are not used; you can also have your past logs deleted at that moment.</li></ul>
+<h2 id="your-rights">Your rights</h2>
+<p>Under the GDPR and KVKK Art. 11 you have the right to:</p>
+<ul><li>Learn whether your data is processed and, if so, request information about it.</li><li>Learn the purpose of processing and whether it is used in line with that purpose.</li><li>Know the third parties, in Türkiye or abroad, to which your data is transferred.</li><li>Have incomplete or incorrect data corrected.</li><li>Have your data erased or destroyed; have its processing restricted.</li><li>Have corrections and erasures notified to the third parties your data was transferred to.</li><li>Receive your data in a structured, commonly used format (portability).</li><li>Object to a result that is reached solely by automated analysis and works against you.</li><li>Withdraw consent at any time for processing based on your consent (withdrawal does not affect processing done before it).</li><li>Claim compensation if you suffer damage because of unlawful processing.</li></ul>
+<p>To exercise these rights, just write to <a href="mailto:support@helovea.app">support@helovea.app</a>; we answer within 30 days at the latest. You also have the right to lodge a complaint with the Turkish Personal Data Protection Authority (kvkk.gov.tr) or, if you live in the EU, with the data protection authority of your country.</p>
+<h2 id="how-to-withdraw-your-consent">How to withdraw your consent</h2>
+<ul><li>Health data: because your consent is a condition of using the app, the way to withdraw it is to delete your account (Profile → Account → Delete My Account; all your data is deleted). Without deleting your account you can still stop symptom logging with the Profile → Digestion tracking switch (and delete past logs) and remove your allergies under Profile → Allergies.</li><li>AI: in two taps under Profile → Account → "Withdraw AI consents"; as long as you don't use those features, nothing is sent anyway.</li><li>Notifications: in your phone settings or under Profile → Notifications.</li></ul>
+<h2 id="children-s-privacy">Children's privacy</h2>
+<p>Helovea is not intended for children under 16 and we do not knowingly collect data from them. If we learn that we have collected data from a child under 16, we delete it.</p>
+<h2 id="changes">Changes</h2>
+<p>If we update this notice, we will publish the new version in the app and at legal.helovea.app and update its date. For changes that affect how your health data is processed we will ask for your consent again; for other significant changes we will also notify you.</p>
+</article>
+<aside>
+  <div class="toc"><h3>On this page</h3><ol><li><a href="#in-short">In short</a></li><li><a href="#data-controller">Data controller</a></li><li><a href="#what-we-collect-why-and-on-which-legal-basis">What we collect, why, and on which legal basis</a></li><li><a href="#where-your-data-is-stored">Where your data is stored</a></li><li><a href="#who-we-share-it-with-and-international-transfers">Who we share it with, and international transfers</a></li><li><a href="#ai-features">AI features</a></li><li><a href="#automated-analysis">Automated analysis</a></li><li><a href="#how-long-we-keep-your-data">How long we keep your data</a></li><li><a href="#your-rights">Your rights</a></li><li><a href="#how-to-withdraw-your-consent">How to withdraw your consent</a></li><li><a href="#children-s-privacy">Children's privacy</a></li><li><a href="#changes">Changes</a></li></ol></div>
+  <div class="note">This text is identical to the <b>Profile → Privacy &amp; Terms</b> section inside the app. Questions: <a href="mailto:support@helovea.app">support@helovea.app</a></div>
+</aside>
+</div>
+</main>
+<footer><div class="band-in"><span>© 2026 Helovea</span><span><a href="../privacy/" data-tr="Gizlilik" data-en="Privacy">Gizlilik</a> · <a href="../terms/" data-tr="Koşullar" data-en="Terms">Koşullar</a> · <a href="mailto:support@helovea.app">support@helovea.app</a></span></div></footer>
+<script>
+(function(){
+  var KEY='helovea_legal_lang';
+  function pick(){
+    var q=new URLSearchParams(location.search).get('lang');
+    if(q==='tr'||q==='en') return q;
+    try{var s=localStorage.getItem(KEY); if(s==='tr'||s==='en') return s;}catch(e){}
+    return (navigator.language||'').toLowerCase().indexOf('tr')===0?'tr':'en';
+  }
+  function apply(lang){
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-lang-block]').forEach(function(el){ el.hidden = el.getAttribute('data-lang-block')!==lang; });
+    document.querySelectorAll('button[data-lang]').forEach(function(b){ b.setAttribute('aria-pressed', String(b.getAttribute('data-lang')===lang)); });
+    document.querySelectorAll('[data-tr][data-en]').forEach(function(el){ el.textContent = el.getAttribute('data-'+lang); });
+    var t=document.querySelector('[data-lang-block="'+lang+'"] h1'); if(t) document.title=t.textContent+' — Helovea';
+    try{localStorage.setItem(KEY,lang);}catch(e){}
+  }
+  document.querySelectorAll('button[data-lang]').forEach(function(b){ b.addEventListener('click',function(){ apply(b.getAttribute('data-lang')); }); });
+  apply(pick());
+})();</script>
+</body>
+</html>

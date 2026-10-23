@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Kullanım Koşulları — Helovea</title>
+<meta name="description" content="Helovea — Kullanım Koşulları / Terms of Use">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#F5F0E6; --surface:#FFFFFF; --ink:#1A1A1A; --ink-2:#5E5B52; --ink-3:#8A867B;
+  --deep:#0F3A2D; --deep-ink:#F5F0E6; --mint:#2BAE7E; --mint-ink:#0B3B2A; --gold:#C5A572;
+  --rule:#E4DDCF; --focus:#2BAE7E;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#111915; --surface:#18221D; --ink:#EDE8DC; --ink-2:#B9B3A5; --ink-3:#857F72;
+    --deep:#0B2A21; --deep-ink:#EDE8DC; --mint:#3FC493; --mint-ink:#0B3B2A; --gold:#D4B887;
+    --rule:#26332C; --focus:#3FC493;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#111915; --surface:#18221D; --ink:#EDE8DC; --ink-2:#B9B3A5; --ink-3:#857F72;
+  --deep:#0B2A21; --deep-ink:#EDE8DC; --mint:#3FC493; --mint-ink:#0B3B2A; --gold:#D4B887;
+  --rule:#26332C; --focus:#3FC493;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.65;font-feature-settings:"cv11","ss01"}
+a{color:var(--mint);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--ink)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:4px}
+.band{background:var(--deep);color:var(--deep-ink)}
+.band-in{max-width:1040px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--deep-ink);text-decoration:none}
+.brand .leaf{width:28px;height:28px;border-radius:9px;background:var(--mint);display:grid;place-items:center}
+.brand .leaf svg{width:16px;height:16px}
+.brand b{font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:600;font-size:20px;letter-spacing:-.01em}
+nav{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+nav a,.lang button{font:inherit;font-size:13px;font-weight:500;letter-spacing:.01em;padding:8px 12px;border-radius:999px;color:var(--deep-ink);text-decoration:none;border:1px solid transparent;background:transparent;cursor:pointer;opacity:.82}
+nav a:hover,.lang button:hover{opacity:1}
+nav a[aria-current="page"]{background:rgba(255,255,255,.12);opacity:1}
+.lang{display:flex;gap:2px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:2px}
+.lang button[aria-pressed="true"]{background:var(--mint);color:var(--mint-ink);opacity:1}
+main{max-width:1040px;margin:0 auto;padding:40px 24px 72px;display:grid;grid-template-columns:minmax(0,66ch) 1fr;gap:48px;align-items:start}
+@media (max-width:860px){main{grid-template-columns:minmax(0,1fr);gap:28px}}
+.doc h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,4.6vw,46px);line-height:1.1;letter-spacing:-.015em;margin:0 0 10px;text-wrap:balance;color:var(--ink)}
+.eyebrow{display:flex;gap:10px;align-items:center;font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:0 0 28px}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--gold)}
+.doc p{margin:0 0 14px;color:var(--ink);max-width:66ch}
+.doc > p:first-of-type{font-size:19px;line-height:1.55;color:var(--ink-2);margin-bottom:26px}
+.doc h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:24px;line-height:1.25;letter-spacing:-.01em;margin:38px 0 10px;text-wrap:balance;color:var(--ink);scroll-margin-top:24px}
+.doc ul{margin:0 0 14px;padding:0 0 0 1.15em;max-width:66ch}
+.doc li{margin:0 0 8px;padding-left:.2em}
+.doc li::marker{color:var(--mint)}
+aside{position:sticky;top:24px}
+.toc{background:var(--surface);border:1px solid var(--rule);border-radius:14px;padding:18px 18px 14px}
+.toc h3{margin:0 0 10px;font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.toc ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:2px}
+.toc a{display:block;padding:6px 8px;border-radius:8px;font-size:14px;color:var(--ink-2);text-decoration:none;line-height:1.35}
+.toc a:hover{background:var(--ground);color:var(--ink)}
+.note{margin-top:14px;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--rule);font-size:13.5px;color:var(--ink-2);line-height:1.5}
+.note b{color:var(--ink);font-weight:600}
+footer{border-top:1px solid var(--rule);color:var(--ink-3);font-size:13.5px}
+footer .band-in{justify-content:space-between}
+footer a{color:var(--ink-2)}
+[data-lang-block]{display:contents}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+/* Giriş sayfası kartları */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:28px}
+.card{display:block;background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:22px 22px 20px;text-decoration:none;color:var(--ink);transition:transform .15s ease,border-color .15s ease}
+.card:hover{border-color:var(--mint);transform:translateY(-2px)}
+.card h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:22px;margin:0 0 6px;letter-spacing:-.01em}
+.card p{margin:0;color:var(--ink-2);font-size:15px;line-height:1.5}
+.card .go{display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--mint)}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<header class="band"><div class="band-in">
+  <a class="brand" href="../"><span class="leaf"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 4c-7 0-12 4-12 11 0 1 .1 2 .3 3C9 14 12 11 16 9c-3 3-5 6-6 10 6 0 10-5 10-12 0-1 0-2-1-3z" fill="#0F3A2D"/></svg></span><b>Helovea</b></a>
+  <nav aria-label="Belgeler / Documents">
+    <a href="../privacy/"  data-tr="Gizlilik Politikası" data-en="Privacy Policy">Gizlilik Politikası</a>
+    <a href="../terms/" aria-current="page" data-tr="Kullanım Koşulları" data-en="Terms of Use">Kullanım Koşulları</a>
+    <span class="lang" role="group" aria-label="Dil / Language">
+      <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </span>
+  </nav>
+</div></header>
+<main>
+<div data-lang-block="tr" hidden>
+<article class="doc">
+  <h1>Kullanım Koşulları</h1>
+  <p class="eyebrow">Son güncelleme: 22 Ekim 2026</p>
+  <p>Bu koşulları, girişten sonra açılan onay ekranında işaretleyerek kabul edersin. Sade tuttuk — lütfen oku.</p>
+<h2 id="helovea-nedir-ne-degildir">Helovea nedir, ne değildir?</h2>
+<p>Helovea; beslenme planlama, öğün takibi ve sindirim dostu tarifler sunan bir yardımcı uygulamadır.</p>
+<p>Helovea bir sağlık kuruluşu DEĞİLDİR; teşhis koymaz, tedavi önermez. Uygulamadaki bilgiler ve skorlar genel niteliktedir, hekim veya diyetisyen görüşünün yerine geçmez. Bir sağlık sorunun varsa (IBS dahil) beslenmeni değiştirmeden önce mutlaka bir uzmana danış.</p>
+<h2 id="alerjen-ve-besin-bilgileri-hakkinda-onemli-uyari">Alerjen ve besin bilgileri hakkında önemli uyarı</h2>
+<p>Diyet ve alerjen filtreleri sana yardımcı olmak için vardır, ancak hata payı olabilir. Besin değerleri güvenilir kaynaklardan (ör. USDA) derlenmiştir fakat kesinliği garanti edilmez. Alerjin varsa, tükettiğin her ürünün içeriğini her zaman kendin doğrula. Alerjik reaksiyon riski taşıyan durumlarda yalnız uygulamaya güvenme.</p>
+<h2 id="hesabin">Hesabın</h2>
+<ul><li>Kayıt olurken doğru bilgi vermelisin; hesabının güvenliğinden (şifreni korumak dahil) sen sorumlusun.</li><li>Helovea'yı kullanmak için en az 16 yaşında olmalısın.</li><li>Hesabını istediğin an uygulama içinden silebilirsin.</li></ul>
+<h2 id="kabul-edilebilir-kullanim">Kabul edilebilir kullanım</h2>
+<p>Şunlar yasaktır: uygulamayı kötüye kullanmak, güvenlik önlemlerini aşmaya çalışmak, tersine mühendislik yapmak, sistemlere zarar verecek otomatik istekler göndermek, başka birinin hesabına erişmeye çalışmak. Bu kurallar ihlal edilirse hesabını askıya alabilir veya kapatabiliriz.</p>
+<h2 id="veacoin">VeaCoin</h2>
+<p>VeaCoin, uygulama içi sanal bir ödül birimidir. Parasal değeri yoktur; satılamaz, devredilemez ve paraya çevrilemez. Ödül sistemini önceden bildirerek değiştirebilir veya sonlandırabiliriz.</p>
+<h2 id="ucretli-ozellikler">Ücretli özellikler</h2>
+<p>Bazı özellikler ileride ücretli (premium) olabilir. Satın almalar uygulama mağazası (App Store / Google Play) üzerinden yapılır ve satın alma anında koşulları açıkça gösterilir.</p>
+<h2 id="fikri-mulkiyet">Fikri mülkiyet</h2>
+<p>Uygulama, tasarım, metinler, tarifler ve maskot Vea dahil tüm içerik Helovea'ya aittir. Kişisel kullanımın dışında kopyalanamaz ve dağıtılamaz.</p>
+<h2 id="sorumlulugun-siniri">Sorumluluğun sınırı</h2>
+<p>Helovea "olduğu gibi" sunulur. Kesintisiz veya hatasız çalışacağını garanti edemeyiz. Mevzuatın izin verdiği azami ölçüde, uygulamanın kullanımından doğabilecek dolaylı zararlardan sorumlu değiliz. Sağlıkla ilgili kararlarının sorumluluğu sana ve danıştığın uzmanlara aittir.</p>
+<h2 id="degisiklikler-ve-iletisim">Değişiklikler ve iletişim</h2>
+<p>Bu koşulları güncellersek uygulama içinde ve legal.helovea.app adresinde yayımlarız; onayını gerektiren bir değişiklikte bir sonraki açılışta yeniden onayını isteriz. Soruların için: <a href="mailto:destek@helovea.app">destek@helovea.app</a></p>
+<p>Bu koşullar Türkiye Cumhuriyeti hukukuna tabidir. Avrupa Birliği'nde yaşıyorsan, ülkenin tüketiciyi koruyan zorunlu hükümleri saklıdır.</p>
+</article>
+<aside>
+  <div class="toc"><h3>Bu sayfada</h3><ol><li><a href="#helovea-nedir-ne-degildir">Helovea nedir, ne değildir?</a></li><li><a href="#alerjen-ve-besin-bilgileri-hakkinda-onemli-uyari">Alerjen ve besin bilgileri hakkında önemli uyarı</a></li><li><a href="#hesabin">Hesabın</a></li><li><a href="#kabul-edilebilir-kullanim">Kabul edilebilir kullanım</a></li><li><a href="#veacoin">VeaCoin</a></li><li><a href="#ucretli-ozellikler">Ücretli özellikler</a></li><li><a href="#fikri-mulkiyet">Fikri mülkiyet</a></li><li><a href="#sorumlulugun-siniri">Sorumluluğun sınırı</a></li><li><a href="#degisiklikler-ve-iletisim">Değişiklikler ve iletişim</a></li></ol></div>
+  <div class="note">Bu metin, uygulamanın içindeki <b>Profil → Gizlilik ve Koşullar</b> bölümüyle birebir aynıdır. Sorular için: <a href="mailto:destek@helovea.app">destek@helovea.app</a></div>
+</aside>
+</div>
+<div data-lang-block="en" hidden>
+<article class="doc">
+  <h1>Terms of Use</h1>
+  <p class="eyebrow">Last updated: October 22, 2026</p>
+  <p>You accept these terms by ticking the box on the consent screen shown after sign-in. We kept them short — please read them.</p>
+<h2 id="what-helovea-is-and-isn-t">What Helovea is (and isn't)</h2>
+<p>Helovea is a companion app for meal planning, food logging and digestion-friendly recipes.</p>
+<p>Helovea is NOT a healthcare provider; it does not diagnose or treat anything. The information and scores in the app are general in nature and are no substitute for a doctor or dietitian. If you have a health condition (including IBS), always consult a professional before changing your diet.</p>
+<h2 id="important-note-on-allergens-and-nutrition-data">Important note on allergens and nutrition data</h2>
+<p>Diet and allergen filters exist to help you, but they can contain errors. Nutrition values are compiled from reliable sources (e.g. USDA) but their accuracy is not guaranteed. If you have an allergy, always verify for yourself the ingredients of everything you consume. Never rely on the app alone in situations that carry a risk of allergic reaction.</p>
+<h2 id="your-account">Your account</h2>
+<ul><li>You must provide accurate information when signing up; you are responsible for keeping your account secure (including your password).</li><li>You must be at least 16 years old to use Helovea.</li><li>You can delete your account anytime, inside the app.</li></ul>
+<h2 id="acceptable-use">Acceptable use</h2>
+<p>The following are not allowed: misusing the app, attempting to bypass security measures, reverse engineering, sending automated requests that could harm our systems, or trying to access someone else's account. Violations may lead to suspension or termination of your account.</p>
+<h2 id="veacoin">VeaCoin</h2>
+<p>VeaCoin is a virtual in-app reward unit. It has no monetary value; it cannot be sold, transferred or exchanged for money. We may change or discontinue the reward system with prior notice.</p>
+<h2 id="paid-features">Paid features</h2>
+<p>Some features may become paid (premium) in the future. Purchases are made through the app store (App Store / Google Play) and the terms are clearly shown at the time of purchase.</p>
+<h2 id="intellectual-property">Intellectual property</h2>
+<p>All content — including the app, its design, texts, recipes and the mascot Vea — belongs to Helovea. It may not be copied or distributed beyond personal use.</p>
+<h2 id="limitation-of-liability">Limitation of liability</h2>
+<p>Helovea is provided "as is". We cannot guarantee uninterrupted or error-free operation. To the maximum extent permitted by law, we are not liable for indirect damages arising from use of the app. Responsibility for your health decisions rests with you and the professionals you consult.</p>
+<h2 id="changes-and-contact">Changes and contact</h2>
+<p>If we update these terms, we will publish them in the app and at legal.helovea.app; for a change that needs your acceptance, we will ask you to accept again the next time you open the app. Questions: <a href="mailto:support@helovea.app">support@helovea.app</a></p>
+<p>These terms are governed by the laws of the Republic of Türkiye. If you live in the European Union, the mandatory consumer-protection rules of your country still apply.</p>
+</article>
+<aside>
+  <div class="toc"><h3>On this page</h3><ol><li><a href="#what-helovea-is-and-isn-t">What Helovea is (and isn't)</a></li><li><a href="#important-note-on-allergens-and-nutrition-data">Important note on allergens and nutrition data</a></li><li><a href="#your-account">Your account</a></li><li><a href="#acceptable-use">Acceptable use</a></li><li><a href="#veacoin">VeaCoin</a></li><li><a href="#paid-features">Paid features</a></li><li><a href="#intellectual-property">Intellectual property</a></li><li><a href="#limitation-of-liability">Limitation of liability</a></li><li><a href="#changes-and-contact">Changes and contact</a></li></ol></div>
+  <div class="note">This text is identical to the <b>Profile → Privacy &amp; Terms</b> section inside the app. Questions: <a href="mailto:support@helovea.app">support@helovea.app</a></div>
+</aside>
+</div>
+</main>
+<footer><div class="band-in"><span>© 2026 Helovea</span><span><a href="../privacy/" data-tr="Gizlilik" data-en="Privacy">Gizlilik</a> · <a href="../terms/" data-tr="Koşullar" data-en="Terms">Koşullar</a> · <a href="mailto:support@helovea.app">support@helovea.app</a></span></div></footer>
+<script>
+(function(){
+  var KEY='helovea_legal_lang';
+  function pick(){
+    var q=new URLSearchParams(location.search).get('lang');
+    if(q==='tr'||q==='en') return q;
+    try{var s=localStorage.getItem(KEY); if(s==='tr'||s==='en') return s;}catch(e){}
+    return (navigator.language||'').toLowerCase().indexOf('tr')===0?'tr':'en';
+  }
+  function apply(lang){
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-lang-block]').forEach(function(el){ el.hidden = el.getAttribute('data-lang-block')!==lang; });
+    document.querySelectorAll('button[data-lang]').forEach(function(b){ b.setAttribute('aria-pressed', String(b.getAttribute('data-lang')===lang)); });
+    document.querySelectorAll('[data-tr][data-en]').forEach(function(el){ el.textContent = el.getAttribute('data-'+lang); });
+    var t=document.querySelector('[data-lang-block="'+lang+'"] h1'); if(t) document.title=t.textContent+' — Helovea';
+    try{localStorage.setItem(KEY,lang);}catch(e){}
+  }
+  document.querySelectorAll('button[data-lang]').forEach(function(b){ b.addEventListener('click',function(){ apply(b.getAttribute('data-lang')); }); });
+  apply(pick());
+})();</script>
+</body>
+</html>
